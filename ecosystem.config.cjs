@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'ser-admin',
       script: 'npx',
-      args: 'serve -s dist -l 1266',  // Servir la carpeta dist en el puerto 1266
+      args: 'serve -s dist -l 1266',
       env: {
         NODE_ENV: 'production',
       },
